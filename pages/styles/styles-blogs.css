@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #D0D3D4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #11698e;
+    padding: 20px 20px 20px;
+}
+
+header ul {
+    margin-right: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 25px;
+}
+
+header ul li a img {
+    width: 60px;
+}
+
+.blog-profile-container {
+    background-color: white;
+}
+
+.blog-profile-container ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog-profile-container ul li {
+    list-style: none;
+}
+
+.blog-profile-container ul li .profile {
+    text-decoration: none;
+    font-size: 3.5vh;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog-profile-container .profile:hover {
+    text-decoration: underline;
+}
+
+.profile-content {
+    margin-top: 35px;
+}
+
+.blog-profile-container li .img-blogs img {
+    width: 320px;
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background: #ECF0F1;
+    padding: 20px 20px 20px;
+}
+
+.title-img {
+    margin-left: 80px;
+}
+
+.title-img h3 {
+    font-size: 3vh;
+    margin-bottom: 25px;
+}
+
+.title-img img {
+    width: 800px;
+    border-radius: 20px;
+}
+
+.text-content {
+    margin-top: 80px;
+    margin-right: 80px;
+}
+
+.text-content h2 {
+    font-size: 4.5vh;
+    margin-bottom: 25px;
+}
+
+.text-content p {
+    font-size: 3vh;
+    margin-bottom: 20px;
+}
+
+.text-content a {
+    padding: 15px 15px 15px;
+    background: #F7DC6F;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.small-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.small-title h1 {
+    font-size: 4vh;
+}
+
+.cards-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cards-content {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.card {
+    margin-left: 20px;
+    margin-right: 55px;
+}
+
+.cards-content .card img {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 450px;
+}
+
+.card p {
+    margin-bottom: 25px;
+}
+
+.card a {
+    padding: 15px 15px 15px;
+    background: #F7DC6F;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+footer {
+    color: white ;
+    background-color: #1e1f28;
+    margin-top: 25px;
+    padding: 15px 15px 15px;
+    text-align: center;
+}
